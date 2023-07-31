@@ -1,0 +1,28 @@
+body {
+    background-image: url('Baltimore-Maryland-skyline.png'); 
+    background-size: cover; /* Para ajustar o tamanho da imagem ao tamanho da tela */
+    background-repeat: no-repeat; /* Para evitar que a imagem se repita */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Elementos da frase inferior esquerda */
+.frase {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+body {
+    color: white; /* Mudando a cor do texto para branco */
+    font-family: "Arial Rounded MT", "Helvetica Rounded", Arial, sans-serif; /* Usando a fonte Arial Rounded MT, se não disponível, tenta Helvetica Rounded, Arial e fontes genéricas sans-serif */
+  }
+
+
+ 
