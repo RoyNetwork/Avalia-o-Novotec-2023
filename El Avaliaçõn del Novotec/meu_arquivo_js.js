@@ -24,7 +24,7 @@ function calculateAge() {
     } else {
       message += 'menor de idade.♟';
     }
-    resultMessage.innerHTML = message; // Usamos innerHTML para aceitar a quebra de linha <br>
+    resultMessage.innerHTML = message; // Usando innerHTML para aceitar a quebra de linha <br>
   }
 }
 
@@ -39,7 +39,7 @@ checkButton.addEventListener('click', calculateAge);
 function exibirFrasePersonalizada() {
     var nome = prompt("Digite seu nome:");
     if (nome !== null && nome !== "") {
-        var frase = "Olá, " + nome + "! Bem-vindo(a) à nossa página! Digite sua data de nascimento para proseguir.";
+        var frase = "Olá, " + nome + "! Bem-vindo(a) à nossa página! Digite sua data de nascimento e nome abaixo para proseguir.";
         alert(frase);
     } else {
         alert("Você não digitou um nome válido.");

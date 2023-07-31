@@ -20,9 +20,13 @@ body {
 }
 
 body {
-    color: white; /* Mudando a cor do texto para branco */
+    color: white; /* Cor do texto: branco */
     font-family: "Arial Rounded MT", "Helvetica Rounded", Arial, sans-serif; /* Usando a fonte Arial Rounded MT, se não disponível, tenta Helvetica Rounded, Arial e fontes genéricas sans-serif */
   }
+
+abbr:hover::before {
+    display: block; /* Mostra o tooltip quando o cursor estiver sobre o elemento */
+}
 
 
  
