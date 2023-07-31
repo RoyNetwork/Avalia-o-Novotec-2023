@@ -29,4 +29,22 @@ abbr:hover::before {
 }
 
 
+/* Formatação do título e posicionamento */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bem-vindo {
+    background-color: #0000007e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+        
+
+
+
+
  

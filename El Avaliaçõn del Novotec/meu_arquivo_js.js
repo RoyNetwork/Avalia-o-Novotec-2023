@@ -18,7 +18,7 @@ function calculateAge() {
   if (isNaN(ageInYears)) {
     resultMessage.textContent = 'Por favor, insira uma data válida.';
   } else {
-    let message = `Olá, ${name}!<br>Você tem ${Math.floor(ageInYears)} anos e é `;
+    let message = `Olá,❀${name}❀!<br>Você tem ${Math.floor(ageInYears)} anos e é `;
     if (ageInYears >= 18) {
       message += 'maior de idade!♞';
     } else {
@@ -62,3 +62,5 @@ function resetInformation() {
   
   checkButton.addEventListener('click', calculateAge);
   resetButton.addEventListener('click', resetInformation); // Adicionando o evento de clique ao botão de reset
+
+
